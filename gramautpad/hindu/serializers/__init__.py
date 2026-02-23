@@ -1,0 +1,15 @@
+from .user_serializer import Loginserializer,Verifyserializer,RegisterSerializer1
+from .country_serializer import countrySerializer,CountrySerializer1
+from .state_serializer import StateSeerializer
+from .district_serializer import DistrictSerializer
+from .block_serializer import BlockSerializer
+from .village_serializer import VillageSerializer,VillageSerializer1,VillageSerializer2
+from .main_category_serializer import MainCategorySerializer
+from .category_serializer import CategorySerializer
+from .sub_category_serializer import SubCategorySerializer,SubCategorySerializer1
+from .product_serializer import ProductSerializer,ProductSerializer1
+# from .register_serializer import RegisterSerializer
+from .seller_product_serializer import SellerSerializer
+from .wishlist_serializer import WishlistSerializer,WishlistSerializer1
+from .reviews_serializer import ReviewSerializer
+from .cart_serializer import CartSerializer
