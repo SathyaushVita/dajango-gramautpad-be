@@ -30,10 +30,13 @@ SECRET_KEY = 'django-insecure-b!$fj*m4bj(69ar0zf#iy)_gx4+ht5l22^v5!6-@mznb1^-)91
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['gu-apiserver01.sts.com', 'gu-apiserver02.sts.com']
-# ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = ['gu-apiserver01.sts.com', 'gu-apiserver02.sts.com']
+ALLOWED_HOSTS = []
 
 # Application definition
+
+
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
